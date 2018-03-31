@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Welcome from './Welcome'
 
 class App extends Component {
   constructor() {
@@ -22,6 +23,5 @@ class App extends Component {
 }
 
 
-const Welcome= (props)=> <h1> Hola {props.name}</h1>;
 
 export default App;

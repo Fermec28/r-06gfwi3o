@@ -21,4 +21,7 @@ class App extends Component {
   }
 }
 
+
+const Welcome= (props)=> <h1> Hola {props.name}</h1>;
+
 export default App;
